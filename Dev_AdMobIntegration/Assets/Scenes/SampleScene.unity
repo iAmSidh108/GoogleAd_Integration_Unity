@@ -228,7 +228,7 @@ GameObject:
   - component: {fileID: 852848295}
   - component: {fileID: 852848296}
   m_Layer: 0
-  m_Name: BannerAds
+  m_Name: AdsManager
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -258,7 +258,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 852848294}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6f40c54b3f237464692d513e5887158d, type: 3}
+  m_Script: {fileID: 11500000, guid: e3b69daedee2b6543903dece10572da8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &963194225

@@ -5,20 +5,13 @@ using GoogleMobileAds.Api;
 
 public class BannerAds : MonoBehaviour
 {
+
     private string _adUnitId;
     private BannerView _bannerView;
     private AdRequest adRequest;
 
-
-    void Start()
-    {
-        MobileAds.Initialize((InitializationStatus initStat) =>
-        {
-            LoadBannerAds();
-        });
-
-    }
-    private void LoadBannerAds()
+    
+    public void LoadBannerAds()
     {
         #if UNITY_ANDROID
  _adUnitId = "ca-app-pub-3940256099942544/6300978111";
